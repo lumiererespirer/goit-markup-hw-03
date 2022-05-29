@@ -391,8 +391,21 @@ img {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+
+    margin: -15px;
 }
+
 .portfolio-item {
+    margin: 15px;
+
+    border-bottom: 1px solid var(--primary-text-color);
+}
+
+.portfolio-item {
+    flex-basis: calc(100% / 3 - 30px);
+}
+
+/* .portfolio-item {
     margin-right: 30px;
     margin-bottom: 30px;
 
@@ -409,7 +422,7 @@ img {
 
 .portfolio-item {
     width: calc((100% - 60px) / 3);
-}
+} */
 
 .client-container {
     padding: 20px 24px;
