@@ -65,6 +65,15 @@ img {
     /* outline: 2px dashed #f44336; */
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section.without-padding {
+    padding-bottom: 0;
+}
+
 
 /* Логотип */
 
@@ -95,8 +104,7 @@ img {
 /* Навигация */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
+    border-bottom: 1px solid #ececec;
 }
 
 .header > .container {
@@ -132,8 +140,8 @@ img {
 .header-nav-link,
 .header-address-link {
     display: block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     font-style: normal;
     font-weight: 500;
@@ -216,11 +224,6 @@ img {
 
 /* Блок преимуществ */
 
-.benefits {
-    padding-top: 94px;
-    padding-bottom: 47px;
-}
-
 .benefits-list {
     display: flex;
 }
@@ -257,11 +260,6 @@ img {
 
 /* Блок услуг */
 
-.services {
-    padding-top: 47px;
-    padding-bottom: 94px;
-}
-
 .services-list {
     display: flex;
 }
@@ -282,11 +280,6 @@ img {
 /* Наша команда */
 
 .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
-    text-align: center;
-
     background-color: var(--secondary-background-color);
 }
 
@@ -304,7 +297,10 @@ img {
 
 .team-item {
     width: calc((100% - 90px) / 4);
+
     background-color: var(--primary-background-color);
+
+    border-radius: 0px 0px 4px 4px;
 }
 
 .name-container {
@@ -337,11 +333,6 @@ img {
 
 
 /* Портфолио */
-
-.portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .portfolio-btn-list {
     display: flex;
@@ -397,8 +388,6 @@ img {
 
 .portfolio-item {
     margin: 15px;
-
-    border-bottom: 1px solid var(--primary-text-color);
 }
 
 .portfolio-item {
@@ -426,6 +415,9 @@ img {
 
 .client-container {
     padding: 20px 24px;
+    border-right: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    border-left: 1px solid #ececec;
 }
 
 .portfolio-subtitle {
